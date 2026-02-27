@@ -1,6 +1,5 @@
 import { redirect } from "next/navigation";
 import { auth } from "@/lib/auth";
-import Dashboard from "@/components/dashboard/Dashboard";
 
 const Home = async () => {
   const session = await auth();
@@ -9,7 +8,7 @@ const Home = async () => {
     redirect("/api/auth/signin");
   }
 
-  return <Dashboard user={session.user} />;
+  return <div>Home</div>;
 };
 
 export default Home;
