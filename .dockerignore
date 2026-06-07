@@ -1,0 +1,13 @@
+.next
+node_modules
+dist
+.git
+.env
+.env.*
+npm-debug.log
+pnpm-debug.log
+local/node_modules
+/.pnp
+coverage
+public
+*.tgz
