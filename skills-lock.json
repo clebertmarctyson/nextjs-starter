@@ -61,6 +61,12 @@
       "skillPath": "skills/cookie-consent-compliance/SKILL.md",
       "computedHash": "ca02273ffa089c7ba3b006b8784b218c239af57bf7b256fb9e9a9312a1b743f5"
     },
+    "creating-vunep-skills": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/creating-vunep-skills/SKILL.md",
+      "computedHash": "1671b30f36b823e8058909a70f53d9672d984102fde336c218cded55ed043f13"
+    },
     "db-migration-safety": {
       "source": "vunep/skills",
       "sourceType": "github",
