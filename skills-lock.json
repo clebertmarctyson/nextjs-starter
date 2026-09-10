@@ -121,6 +121,12 @@
       "skillPath": "skills/incident-postmortem/SKILL.md",
       "computedHash": "aae999de46a67eadb8fa3202435ad56c4c55044a978ab9f8b012a896db5df97a"
     },
+    "legacy-project-adoption": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/legacy-project-adoption/SKILL.md",
+      "computedHash": "89a7ece22c732d1d508c911c91d421d73db6baac6d4e90324c648c3f043fefa8"
+    },
     "modularity-boundaries": {
       "source": "vunep/skills",
       "sourceType": "github",
@@ -139,11 +145,23 @@
       "skillPath": "skills/multi-tenant-saas-patterns/SKILL.md",
       "computedHash": "b443c2ae3668e6af87410c940f7b2826097de1d8710c86c93839290e10e4d6d0"
     },
+    "new-project-intake": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/new-project-intake/SKILL.md",
+      "computedHash": "125620a732b10ce2b3d0155f7d73714aebeb082a3495c109fbe472cca67dfdc1"
+    },
     "onboarding-new-dev": {
       "source": "vunep/skills",
       "sourceType": "github",
       "skillPath": "skills/onboarding-new-dev/SKILL.md",
       "computedHash": "d73a28a419978f8fba2f65fbe44f23da47dc095cd5fd98efd3adba081c65a1dc"
+    },
+    "real-world-fit-audit": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/real-world-fit-audit/SKILL.md",
+      "computedHash": "d2e58e14d051e554ee8273477f6ecdf3179ab8daeba4d134f5c99b70197087c1"
     },
     "secure-api-defaults": {
       "source": "vunep/skills",
@@ -156,6 +174,12 @@
       "sourceType": "github",
       "skillPath": "skills/testing-strategy/SKILL.md",
       "computedHash": "177b66a1aceee577a030ed6d6499e6c015afc15befc4c33502ba2d5c20d3720e"
+    },
+    "using-vunep-skills": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/using-vunep-skills/SKILL.md",
+      "computedHash": "8a1d66ce713f26124acbe59623ca5d0404879cba36fcecf04c0f9874df00e138"
     }
   }
 }
