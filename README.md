@@ -65,7 +65,7 @@ Several things are deliberately left as placeholders and need real values once c
 - `lib/constants.ts` — `APP_NAME`
 - `app/[locale]/layout.tsx` — `SITE_URL`, description, keywords, OG/Twitter image
 - `app/robots.ts`, `app/sitemap.ts` — `SITE_URL`
-- `public/*` — the generated favicon/icon suite is a placeholder mark (solid black square); regenerate from a real logo — see the `favicon-icon-suite` skill in `vunep/skills`
+- `public/*` — the favicon/icon suite and header logo default to Vunep's own branding (fine to keep for internal/proprietary projects); for a client project needing its own identity, regenerate from the client's logo — see the `favicon-icon-suite` skill in `vunep/skills`
 - `messages/en.json`, `messages/fr.json` — starter copy on the home page
 
 ## Known gaps

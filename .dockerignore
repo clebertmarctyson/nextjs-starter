@@ -9,5 +9,4 @@ pnpm-debug.log
 local/node_modules
 /.pnp
 coverage
-public
 *.tgz
