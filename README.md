@@ -7,6 +7,9 @@ Reusable Next.js starter template with authentication and a database already wir
 - **Next.js** (App Router) + **React**, TypeScript
 - **Prisma 7** + **Postgres**
 - **NextAuth v5** (beta) with **Google OAuth**, backed by `@auth/prisma-adapter`
+- **next-intl** — i18n wired for `en`/`fr`, routes live under `app/[locale]/`
+- Minimalist dark header (logo + name, language dropdown, login/logout) in `components/layout/Header.tsx`
+- SEO metadata (OpenGraph, Twitter card, `robots.ts`, `sitemap.ts`) and a full favicon/icon suite — all placeholder values, replace per real project
 - Radix UI primitives + shadcn-style `components/ui/`
 - Tailwind CSS v4
 - pnpm
@@ -56,7 +59,15 @@ npx skills add vunep/skills --skill '*' -a claude-code -y
 
 Non-obvious technical decisions are recorded in `docs/adr/` as they're made — see [`docs/adr/0001-next-auth-v5-beta.md`](docs/adr/0001-next-auth-v5-beta.md) for why this starter runs on a NextAuth v5 beta instead of a stable v4 release.
 
+## Rebranding for a new project
+
+Several things are deliberately left as placeholders and need real values once cloned:
+- `lib/constants.ts` — `APP_NAME`
+- `app/[locale]/layout.tsx` — `SITE_URL`, description, keywords, OG/Twitter image
+- `app/robots.ts`, `app/sitemap.ts` — `SITE_URL`
+- `public/*` — the generated favicon/icon suite is a placeholder mark (solid black square); regenerate from a real logo — see the `favicon-icon-suite` skill in `vunep/skills`
+- `messages/en.json`, `messages/fr.json` — starter copy on the home page
+
 ## Known gaps
 
-- No custom sign-in/sign-out UI yet — currently relies on NextAuth's default hosted `/api/auth/signin` page. Add branded UI per-project as needed.
 - Docker support is in progress on the `dockerize` branch.

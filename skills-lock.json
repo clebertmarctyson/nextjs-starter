@@ -97,6 +97,12 @@
       "skillPath": "skills/domain-normalization-tradeoffs/SKILL.md",
       "computedHash": "f0b92a6cd29585dbd2e43bcb2516e813e1a8ed7485472f770c9a2222c39d0c30"
     },
+    "favicon-icon-suite": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/favicon-icon-suite/SKILL.md",
+      "computedHash": "56a9bc02ac5522647f19b489dad5b49d2cc90c787a02c23b042d9b95500f1b07"
+    },
     "feature-flag-rollout": {
       "source": "vunep/skills",
       "sourceType": "github",
