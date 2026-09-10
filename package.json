@@ -1,7 +1,22 @@
 {
   "name": "nextjs-starter",
   "version": "0.1.0",
-  "description": "This is a NextJs starter",
+  "description": "Reusable Next.js starter template: App Router, Prisma + Postgres, and Google OAuth (NextAuth v5) pre-wired. Meant to be cloned via GitHub's template-repo flow as the base for new projects needing auth and a database.",
+  "keywords": ["nextjs", "starter-template", "prisma", "postgres", "next-auth", "google-oauth", "typescript"],
+  "author": "Marc Tyson Clebert <marctysonclebert9@gmail.com>",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clebertmarctyson/nextjs-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/clebertmarctyson/nextjs-starter/issues"
+  },
+  "homepage": "https://github.com/clebertmarctyson/nextjs-starter",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
