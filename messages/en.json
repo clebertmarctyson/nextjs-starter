@@ -1,0 +1,14 @@
+{
+  "Header": {
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "Locale": {
+    "en": "English",
+    "fr": "Français"
+  },
+  "Home": {
+    "title": "Welcome to {appName}",
+    "subtitle": "This is a starting point. Replace this with your project."
+  }
+}

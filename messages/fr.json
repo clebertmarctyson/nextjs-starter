@@ -1,0 +1,14 @@
+{
+  "Header": {
+    "login": "Connexion",
+    "logout": "Déconnexion"
+  },
+  "Locale": {
+    "en": "English",
+    "fr": "Français"
+  },
+  "Home": {
+    "title": "Bienvenue sur {appName}",
+    "subtitle": "Ceci est un point de départ. Remplacez ce contenu par votre projet."
+  }
+}
