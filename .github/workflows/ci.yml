@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run lint
+      - run: npx tsc --noEmit
+      - run: pnpm run db:generate
+      - run: pnpm run test
+      - run: pnpm run build
+        env:
+          # Build-time placeholders — no real secrets in CI for a starter template.
+          # A project cloned from this template should set its own real values
+          # as repo/environment secrets once it has an actual deploy target.
+          DATABASE_URL: "postgresql://user:pass@localhost:5432/db"
+          AUTH_SECRET: "ci-placeholder-secret-not-for-production"
+          GOOGLE_CLIENT_ID: "ci-placeholder"
+          GOOGLE_CLIENT_SECRET: "ci-placeholder"

@@ -1,0 +1,197 @@
+{
+  "version": 1,
+  "skills": {
+    "api-contract-versioning": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/api-contract-versioning/SKILL.md",
+      "computedHash": "2312c08bd89bde8867aed232c2ae4ab5556b1e731e73b9ed2ccae7db22f1d857"
+    },
+    "architecture-decision-records": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/architecture-decision-records/SKILL.md",
+      "computedHash": "31eb4912e9341b7c014fb2aa84b1ec25bae7233aeadaf19ac2e63c2192cc0bee"
+    },
+    "architecture-layering": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/architecture-layering/SKILL.md",
+      "computedHash": "53c6e189f115d13b0231003998adb6b60e57e3cbe2e00f2ea3196e26b40b8c24"
+    },
+    "architecture-pattern-selection": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/architecture-pattern-selection/SKILL.md",
+      "computedHash": "c5893fd3de24152b6a503f6974536d058ed939083908d55b26e854354760a1d0"
+    },
+    "architecture-solid-principles": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/architecture-solid-principles/SKILL.md",
+      "computedHash": "42c53f34eaa425d5ccdb4df583f7137a18052eca99010380a6893c04f543dcf1"
+    },
+    "client-handoff-docs": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/client-handoff-docs/SKILL.md",
+      "computedHash": "1b7474c379035d0eb8cac5335e3a5de600926c797d855894bd0a777fc44deeb2"
+    },
+    "cloud-iam-least-privilege": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/cloud-iam-least-privilege/SKILL.md",
+      "computedHash": "b2760020d3998e6ddee0821a4d3d9f2aa350de547a7bb6aeefd9de12045dc90c"
+    },
+    "code-review-standards": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/code-review-standards/SKILL.md",
+      "computedHash": "905b8894f651c92bc38418828478bda4b6b62213a80a62c9ace61aa6fcbad49a"
+    },
+    "code-style-enforcement": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/code-style-enforcement/SKILL.md",
+      "computedHash": "38b9e26a6630514302384c72e4e3f7bfc801a7eb7102b308cc60de43a34e4cc6"
+    },
+    "cookie-consent-compliance": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/cookie-consent-compliance/SKILL.md",
+      "computedHash": "ca02273ffa089c7ba3b006b8784b218c239af57bf7b256fb9e9a9312a1b743f5"
+    },
+    "creating-vunep-skills": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/creating-vunep-skills/SKILL.md",
+      "computedHash": "1671b30f36b823e8058909a70f53d9672d984102fde336c218cded55ed043f13"
+    },
+    "db-migration-safety": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/db-migration-safety/SKILL.md",
+      "computedHash": "56f6600f2d5625ad1499e0bfddb08b858064b9be8a00df19976f5cb11b35c585"
+    },
+    "db-schema-security-review": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/db-schema-security-review/SKILL.md",
+      "computedHash": "45023be867b18930d93cc36ea8c99e7a4ab0f90867c73893991eccb496f18260"
+    },
+    "docs-code-comments": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/docs-code-comments/SKILL.md",
+      "computedHash": "13d4681613f9cc1dc84e504aef0d3fcf21b02672d1effca1c1e0c06b0362b94d"
+    },
+    "docs-project-docs": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/docs-project-docs/SKILL.md",
+      "computedHash": "8e2ff2e003adb4efe559cba935b452537c2990edfe61d327dab8af5434a35e86"
+    },
+    "domain-entity-modeling": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/domain-entity-modeling/SKILL.md",
+      "computedHash": "e5a595639b6ced57b88d7da4f735db4bb3197220e5f3e9a1801fa2ead99f584d"
+    },
+    "domain-normalization-tradeoffs": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/domain-normalization-tradeoffs/SKILL.md",
+      "computedHash": "f0b92a6cd29585dbd2e43bcb2516e813e1a8ed7485472f770c9a2222c39d0c30"
+    },
+    "favicon-icon-suite": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/favicon-icon-suite/SKILL.md",
+      "computedHash": "56a9bc02ac5522647f19b489dad5b49d2cc90c787a02c23b042d9b95500f1b07"
+    },
+    "feature-flag-rollout": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/feature-flag-rollout/SKILL.md",
+      "computedHash": "6d45de7ad87bcd5829e1ede3b7e7bd82cd631f8dcca0bcdd92c0857ff1b94de6"
+    },
+    "git-workflow-conventions": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/git-workflow-conventions/SKILL.md",
+      "computedHash": "e436994253b134ce6e330968f81224b3484d13525b5dadd146a5ad5c32c192ec"
+    },
+    "iac-review": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/iac-review/SKILL.md",
+      "computedHash": "d1a3e5033edc59de27f5b8d582e7e564b0679955343665236f40282e32faaaab"
+    },
+    "incident-postmortem": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/incident-postmortem/SKILL.md",
+      "computedHash": "aae999de46a67eadb8fa3202435ad56c4c55044a978ab9f8b012a896db5df97a"
+    },
+    "legacy-project-adoption": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/legacy-project-adoption/SKILL.md",
+      "computedHash": "89a7ece22c732d1d508c911c91d421d73db6baac6d4e90324c648c3f043fefa8"
+    },
+    "modularity-boundaries": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/modularity-boundaries/SKILL.md",
+      "computedHash": "b50adcce94b0be47cb66d184dadf38c48ef65908715a8b6ede6074fb16e3fe94"
+    },
+    "modularity-dry-judgment": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/modularity-dry-judgment/SKILL.md",
+      "computedHash": "551ca1551b56e8e9402fb5f2973e29153f72799688f1510574fbb046cb282efe"
+    },
+    "multi-tenant-saas-patterns": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/multi-tenant-saas-patterns/SKILL.md",
+      "computedHash": "b443c2ae3668e6af87410c940f7b2826097de1d8710c86c93839290e10e4d6d0"
+    },
+    "new-project-intake": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/new-project-intake/SKILL.md",
+      "computedHash": "125620a732b10ce2b3d0155f7d73714aebeb082a3495c109fbe472cca67dfdc1"
+    },
+    "onboarding-new-dev": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/onboarding-new-dev/SKILL.md",
+      "computedHash": "d73a28a419978f8fba2f65fbe44f23da47dc095cd5fd98efd3adba081c65a1dc"
+    },
+    "real-world-fit-audit": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/real-world-fit-audit/SKILL.md",
+      "computedHash": "d2e58e14d051e554ee8273477f6ecdf3179ab8daeba4d134f5c99b70197087c1"
+    },
+    "secure-api-defaults": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/secure-api-defaults/SKILL.md",
+      "computedHash": "0bac26cac5cbe8ab0192f9fbf7a30b8887956b43d3ff9d05ff491e4b5168e674"
+    },
+    "testing-strategy": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/testing-strategy/SKILL.md",
+      "computedHash": "177b66a1aceee577a030ed6d6499e6c015afc15befc4c33502ba2d5c20d3720e"
+    },
+    "using-vunep-skills": {
+      "source": "vunep/skills",
+      "sourceType": "github",
+      "skillPath": "skills/using-vunep-skills/SKILL.md",
+      "computedHash": "8a1d66ce713f26124acbe59623ca5d0404879cba36fcecf04c0f9874df00e138"
+    }
+  }
+}
