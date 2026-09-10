@@ -39,9 +39,22 @@ Then set fresh values in `.env` for the new project (a new database, a new `AUTH
 | `pnpm run dev` | Start the dev server |
 | `pnpm run build` | Production build |
 | `pnpm run lint` | Run ESLint |
+| `pnpm run test` | Run the test suite (Vitest) |
 | `pnpm run db:migrate` | Apply Prisma migrations (dev) |
 | `pnpm run db:generate` | Regenerate the Prisma client |
 | `pnpm run db:studio` | Open Prisma Studio |
+
+## Team skills and standards
+
+`.claude/skills/` in this repo carries the team's shared engineering skills (git workflow, code review, security defaults, testing strategy, architecture principles, and more), installed from [`vunep/skills`](https://github.com/vunep/skills) and committed to git — anyone who clones this repo gets them automatically via any Claude Code (or other supported agent) session. To pull the latest versions:
+
+```bash
+npx skills add vunep/skills --skill '*' -a claude-code -y
+```
+
+## Architecture decisions
+
+Non-obvious technical decisions are recorded in `docs/adr/` as they're made — see [`docs/adr/0001-next-auth-v5-beta.md`](docs/adr/0001-next-auth-v5-beta.md) for why this starter runs on a NextAuth v5 beta instead of a stable v4 release.
 
 ## Known gaps
 

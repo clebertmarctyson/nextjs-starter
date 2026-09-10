@@ -24,6 +24,7 @@ jobs:
       - run: pnpm run lint
       - run: npx tsc --noEmit
       - run: pnpm run db:generate
+      - run: pnpm run test
       - run: pnpm run build
         env:
           # Build-time placeholders — no real secrets in CI for a starter template.

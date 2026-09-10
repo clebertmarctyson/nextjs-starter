@@ -4,6 +4,7 @@ import Google from "next-auth/providers/google";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 
 import prisma from "@/lib/prisma";
+import { attachUserId } from "@/lib/auth-utils";
 
 declare module "next-auth" {
   interface Session {
@@ -26,10 +27,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   ],
   callbacks: {
     async session({ session, user }) {
-      if (session.user) {
-        session.user.id = user.id;
-      }
-      return session;
+      return attachUserId(session, user);
     },
   },
 });
