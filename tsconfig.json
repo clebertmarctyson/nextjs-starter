@@ -29,7 +29,7 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts",
-    "golbals.d.ts"
+    "globals.d.ts"
   ],
   "exclude": ["node_modules"]
 }
