@@ -8,6 +8,17 @@ on:
 jobs:
   ci:
     runs-on: ubuntu-latest
+    env:
+      # Build-time placeholders — no real secrets in CI for a starter template.
+      # A project cloned from this template should set its own real values
+      # as repo/environment secrets once it has an actual deploy target.
+      # Set at job level (not just on the build step): Prisma 7's
+      # prisma.config.ts resolves DATABASE_URL eagerly, so `prisma generate`
+      # needs it too, not only `next build`.
+      DATABASE_URL: "postgresql://user:pass@localhost:5432/db"
+      AUTH_SECRET: "ci-placeholder-secret-not-for-production"
+      GOOGLE_CLIENT_ID: "ci-placeholder"
+      GOOGLE_CLIENT_SECRET: "ci-placeholder"
     steps:
       - uses: actions/checkout@v7
 
@@ -21,16 +32,8 @@ jobs:
           cache: pnpm
 
       - run: pnpm install --frozen-lockfile
+      - run: pnpm run db:generate
       - run: pnpm run lint
       - run: npx tsc --noEmit
-      - run: pnpm run db:generate
       - run: pnpm run test
       - run: pnpm run build
-        env:
-          # Build-time placeholders — no real secrets in CI for a starter template.
-          # A project cloned from this template should set its own real values
-          # as repo/environment secrets once it has an actual deploy target.
-          DATABASE_URL: "postgresql://user:pass@localhost:5432/db"
-          AUTH_SECRET: "ci-placeholder-secret-not-for-production"
-          GOOGLE_CLIENT_ID: "ci-placeholder"
-          GOOGLE_CLIENT_SECRET: "ci-placeholder"
